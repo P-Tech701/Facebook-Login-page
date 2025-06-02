@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Facebook</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body{
+            margin: 0;
+            background-color: #eeecec;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 150px;
+        }
+        .text-container p{
+            font-size: 27px;
+        }
+        
+        .text-container h1{
+            margin: 0;
+            font-size: 75px;
+            color: blue;
+        }
+        .text-container{
+            width: 32%;
+        }
+        .container input{
+            padding: 14px;
+            display: block;
+            margin: 0 0 14px 0;
+            border-radius: 5px;
+        }
+        .container{
+            width: 28%;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 12px 12px 12px #ccc;
+            border-radius: 5px;
+        }
+        .inputs{
+            width: 92%;
+            border: 1px solid #ccc;
+        }
+        .submit{
+            width: 99%;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+        .footer{
+            text-align: center;
+        }
+         .forgot:hover{
+            text-decoration: underline;
+
+         }
+         .forgot{
+            text-decoration: none;
+        }
+        hr{
+            margin: 20px 0;
+            color: #ccc;
+        }
+        .create{
+            background-color: green;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="text-container child">
+            <h1>Facebook</h1>
+            <p>Connect with friends and the world around you on facebook</p>
+        </div>
+
+        <div class="container child">
+            <input type="email" placeholder="Email address or phone number" class="inputs">
+            <input type="password" placeholder="Password" class="inputs">
+            <input type="submit" class="submit" value="Log In">
+            <div class="footer">
+                <a href="#" class="forgot">Forgot Password?</a>
+                <hr>
+                <a href="#" class="create">Create New Account</a>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
